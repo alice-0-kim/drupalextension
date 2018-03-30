@@ -69,8 +69,8 @@ your behat.yml file:
     Drupal\DrupalExtension:
       selectors:
         message_selector: '.messages'
-        error_message_selector: '.messages.messages-error'
-        success_message_selector: '.messages.messages-status'
+        error_message_selector: '.messages.messages--error'
+        success_message_selector: '.messages.messages--status'
 
 Message-related steps include:
 
